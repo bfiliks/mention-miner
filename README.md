@@ -1,4 +1,4 @@
-[![CI](https://github.com/bfiliks/mention-miner/actions/workflows/ci.yml/badge.svg)](https://github.com/<bfiliks>/mention-miner/actions/workflows/ci.yml)
+[![CI](https://github.com/bfiliks/mention-miner/actions/workflows/ci.yml/badge.svg)](https://github.com/bfiliks/mention-miner/actions/workflows/ci.yml)
 
 # mention-miner
 Identify scholar mentions and eponymous concepts in articles, then build co-mention networks for literature scans in **Digital Humanities**, **Cultural Analytics**, **Computational Text Analytics**, and **Digital History**.
