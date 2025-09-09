@@ -1,0 +1,7 @@
+spacy>=3.7.0
+rapidfuzz>=3.9.0
+networkx>=3.2
+pyvis>=0.3.2
+click>=8.1.7
+streamlit>=1.35.0
+pandas>=2.2.0

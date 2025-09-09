@@ -1,0 +1,21 @@
+[project]
+name = "mention-miner"
+version = "0.1.0"
+description = "Extract scholar mentions and build co-mention networks for literature scans."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "spacy>=3.7.0",
+    "rapidfuzz>=3.9.0",
+    "networkx>=3.2",
+    "pyvis>=0.3.2",
+    "click>=8.1.7",
+    "streamlit>=1.35.0",
+    "pandas>=2.2.0",
+]
+
+[project.scripts]
+mention-miner = "mention_miner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

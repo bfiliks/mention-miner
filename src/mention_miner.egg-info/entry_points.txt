@@ -1,0 +1,2 @@
+[console_scripts]
+mention-miner = mention_miner.cli:main
