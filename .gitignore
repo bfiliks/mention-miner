@@ -1,6 +1,19 @@
+# Python & venv
 .venv/
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-data/processed/*
-!data/processed/.gitkeep
+
+# Generated data/figures
+data/**/*.json
+data/**/*.csv
+data/**/*.png
+data/**/*.html
+
+# Keep input .txt & dictionaries
+!data/raw/*.txt
+!data/only_kirilloff/*.txt
+!data/dictionaries/*.txt
+
+# Misc
+.env
+.DS_Store

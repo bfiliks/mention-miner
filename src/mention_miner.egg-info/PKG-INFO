@@ -14,6 +14,8 @@ Requires-Dist: streamlit>=1.35.0
 Requires-Dist: pandas>=2.2.0
 Dynamic: license-file
 
+[![CI](https://github.com/bfiliks/mention-miner/actions/workflows/ci.yml/badge.svg)](https://github.com/bfiliks/mention-miner/actions/workflows/ci.yml)
+
 # mention-miner
 Identify scholar mentions and eponymous concepts in articles, then build co-mention networks for literature scans in **Digital Humanities**, **Cultural Analytics**, **Computational Text Analytics**, and **Digital History**.
 
