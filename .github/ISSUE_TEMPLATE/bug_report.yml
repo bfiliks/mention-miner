@@ -1,0 +1,29 @@
+name: 🐞 Bug report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Include steps to reproduce and what you expected to happen.
+      placeholder: When I run `mention-miner run-batch` with X, I get Y…
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, Python, spaCy model, and package versions
+      placeholder: |
+        - OS: Windows 11
+        - Python: 3.9.13 (venv)
+        - mention-miner: 0.1.0
+        - spaCy: 3.7.5 (en_core_web_sm)
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / stacktrace
+      render: bash
