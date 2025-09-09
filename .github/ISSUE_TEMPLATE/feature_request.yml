@@ -1,0 +1,25 @@
+name: 💡 Feature request
+description: Suggest an idea or improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What problem does this solve?
+      placeholder: I want to surface a ranked “starter canon” list per topic…
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: Add OpenAlex linker; export nodes.csv with fields X, Y…
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: CLI change
+        - label: Library/API change
+        - label: Docs
+        - label: UI (Streamlit)
