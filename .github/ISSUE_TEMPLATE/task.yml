@@ -1,0 +1,24 @@
+name: 🧩 Task
+description: Track a specific development or documentation task
+labels: ["task"]
+body:
+  - type: input
+    id: goal
+    attributes:
+      label: Goal
+      placeholder: Implement CSV export for nodes/edges
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      placeholder: |
+        - [ ] Write function X
+        - [ ] Add tests
+        - [ ] Update README
+  - type: input
+    id: owner
+    attributes:
+      label: Owner
+      placeholder: @username
